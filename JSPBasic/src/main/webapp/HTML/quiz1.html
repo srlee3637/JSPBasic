@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h3>Emp 정보</h3>
+
+	<form>
+		<table border="1">
+			<tr>
+				<td>사원번호:</td>
+				<td><input type="text" name = "empno" ></td>
+			</tr>
+
+			<tr>
+				<td>이름:</td>
+				<td><input type="text" name = "empname"></td>
+			</tr>
+
+			<tr>
+
+				<td>성별:</td>
+				<td><input type="radio" name="empgender"> 남자 <input
+					type="radio" name="empgender"> 여자</td>
+			</tr>
+
+			<tr>
+				<td>직업:</td>
+				<td><input type="text" name = "job"></td>
+			</tr>
+
+			<tr>
+
+				<td>상사:</td>
+				<td><select name="mgr">
+						<option>7369</option>
+						<option>3637</option>
+						<option>1226</option>
+						<option>9120</option>
+
+				</select></td>
+			</tr>
+
+
+			<tr>
+				<td>입사일:</td>
+				<td><input type="text" name = "hiredate" placeholder = "2022-01-01" ></td>
+			</tr>
+
+			<tr>
+				<td>급여:</td>
+				<td><input type="text" name = "sal"></td>
+			</tr>
+
+			<tr>
+				<td>커미션:</td>
+				<td><input type="text" name="comm"></td>
+			</tr>
+
+			<tr>
+				<td>부서번호:</td>
+				<td><select name="deptno">
+						<option>10 ACCOUNTING NEWYORK</option>
+						<option>20 HRTEAM LONDONK</option>
+						<option>30 FUTURESTRATEGY SEOUL</option>
+						<option>40 DESIGN TOKYO</option>
+
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="2" align=center>
+					<input type="submit" value="저장">
+					<input type="reset" value="취소"></td>
+			</tr>
+
+		</table>
+	</form>
+
+
+</body>
+</html>

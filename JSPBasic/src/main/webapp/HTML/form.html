@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+   <!-- form태그는 사용자가 입력한 값을 그대로 받아서 서버에 전송할 때 사용한다 -->
+   
+   <form>
+      <h3>입력양식</h3>
+      아이디: <input type = "text" placeholder="힌트:8글자" maxlength="8" size="10"> <br>
+      비번: <input type="password" placeholder="힌트: 알면뭐하게~!" size="15"> <br>
+      
+      <!-- checkbox, radio 속성은 반드시 name속성을 통일시켜서 하나의 그룹으로 묶는다 -->
+      관심분야: 
+      <input type="checkbox" name = "inter">JAVA
+      <input type="checkbox" name = "inter">JSP
+      <input type="checkbox" name = "inter">JS
+      <input type="checkbox" name = "inter">HTML
+      <input type="checkbox" name = "inter">ORACLE
+      <br>
+      
+      전공분야:
+      <input type="radio" name ="major"> 경영
+      <input type="radio" name ="major"> 컴퓨터
+      <input type="radio" name ="major"> 수학
+      <input type="radio" name ="major"> 기계공학
+      <br>
+      
+      지역
+      <select name ="region">
+         <option>서울</option>
+         <option>경기</option>
+         <option>부산</option>
+         <option>인천</option>
+      
+      </select>
+      <br>
+      정보입력: <br>
+      <textarea rows="5" cols="30"></textarea>
+      
+      <br>
+      <!-- form태그의 데이터를 서버로 전송하는 역할 -->
+      <input type="submit" value = "확인">      
+      <input type="button" value = "목록">
+      <button type="button">목록</button>   
+      <input type="file">
+      <input type="reset" value = "폼초기화">
+      <input type="number" value = "숫자입력">
+         
+   </form>
+   
+
+
+
+</body>
+</html>
